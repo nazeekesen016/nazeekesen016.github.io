@@ -14,10 +14,10 @@
 }
 
 .header {
-    padding: 80px; /* some padding */
-    text-align: center; /* center the text */
-    background: navy; /* green background */
-    color: white; /* white text color */
+    padding: 80px; 
+    text-align: center;
+    background: navy; 
+    color: white; 
 }
 
 .button3 {
@@ -31,53 +31,51 @@
   color: white;
 }
 
-/* Increase the font size of the <h1> element */
+
 .header h1 {
     font-size: 40px;
 }
 
 .navbar {
-    overflow: hidden; /* Hide overflow */
-    background-color: #e7e7e7; /* Dark background color */
+    overflow: hidden; 
+    background-color: #e7e7e7; 
 }
 
-/* Style the navigation bar links */
 .navbar a {
-    float: left; /* Make sure that the links stay side-by-side */
-    display: block; /* Change the display to block, for responsive reasons (see below) */
-    color: navy; /* White text color */
-    text-align: center; /* Center the text */
-    padding: 14px 20px; /* Add some padding */
-    text-decoration: none; /* Remove underline */
+    float: left; 
+    display: block; 
+    color: navy; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none; 
 }
 
-/* Right-aligned link */
+
 .navbar a.right {
-    float: right; /* Float a link to the right */
+    float: right; 
 }
 
-/* Change color on hover/mouse-over */
+
 .navbar a:hover {
-    background-color: #f44336; /* Grey background color */
-    color: navy; /* Black text color */
+    background-color: #f44336; 
+    color: navy; 
 }
 
-/* Column container */
+
 .row {
-    display: -ms-flexbox; /* IE10 */
+    display: -ms-flexbox; 
     display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
+    -ms-flex-wrap: wrap; 
     flex-wrap: wrap;
 }
 
 
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
+
 .side {
 
-    flex: 30%; /* Set the width of the sidebar */
-    background-color: #f1f1f1; /* Grey background color */
-    padding: 20px; /* Some padding */
+    flex: 30%; 
+    background-color: #f1f1f1; 
+    padding: 20px; 
     text-align: center;
 
 }
@@ -89,11 +87,10 @@ img {
 
 
 
-/* Main column */
 .main {
-    flex: 70%; /* Set the width of the main content */
-    background-color: white; /* White background color */
-    padding: 20px; /* Some padding */
+    flex: 70%; 
+    background-color: white; 
+    padding: 20px; 
 }
 
 
@@ -104,24 +101,24 @@ img {
 
 
 .first {
-    flex: 30%; /* Set the width of the sidebar */
-    background-color: #f1f1f1; /* Grey background color */
-    padding: 20px; /* Some padding */
+    flex: 30%; 
+    background-color: #f1f1f1; 
+    padding: 20px; 
     text-align: center;
 
 }
 
 .video {
-    flex: 30%; /* Set the width of the sidebar */
-    padding: 20px; /* Some padding */
+    flex: 30%; 
+    padding: 20px; 
     text-align: center;
 
 }
 
 .second {
-    flex: 70%; /* Set the width of the main content */
-    background-color: white; /* White background color */
-    padding: 20px; /* Some padding */
+    flex: 70%; 
+    background-color: white; 
+    padding: 20px; 
 }
 
 img {
@@ -130,23 +127,21 @@ img {
 }
 
 .third {
-    flex: 30%; /* Set the width of the sidebar */
-    background-color: #f1f1f1; /* Grey background color */
-    padding: 20px; /* Some padding */
+    flex: 30%; 
+    background-color: #f1f1f1; 
+    padding: 20px; 
     text-align: center;
 
 }
 
 
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media (max-width: 700px) {
     .row {
         flex-direction: column;
     }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media (max-width: 400px) {
     .navbar a {
         float: none;
@@ -193,7 +188,7 @@ img {
   color: white;
 }
 .footer {
-    padding: 20px; /* Some padding */
-    text-align: center; /* Center text*/
-    background: #ddd; /* Grey background */
+    padding: 20px; 
+    text-align: center; 
+    background: #ddd; 
 }
